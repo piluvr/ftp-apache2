@@ -1,0 +1,3 @@
+USAGE: create_ftp_user.sh [username] [password]
+Creating user: mcmuffin
+With password: glock2121
