@@ -4,20 +4,20 @@ This was done on Apache 2 on CentOS 8
 1. Clone this github repo
 '''$git clone https://github.com/piluvr/ftp-apache2.git'''
 2. Install Apache 2
-	'''#apt install apache2 (for Debian and based distributions)
-	#dnf install httpd
-	# systemctl enable httpd
-	# systemctl start httpd'''
+	'''apt install apache2 (for Debian and based distributions)
+	dnf install httpd
+	systemctl enable httpd
+	systemctl start httpd'''
 3.	Configure Firewall (CentOS)	
 	'''# firewall-cmd --zone=public --permanent --add-service=http
-	# firewall-cmd --zone=public --permanent --add-service=https
-	# firewall-cmd --add-service=http --permanent
-	# firewall-cmd --reload
-	# firewall-cmd --add-service=http --permanent
-	# firewall-cmd --add-service=https --permanent'''
+	firewall-cmd --zone=public --permanent --add-service=https
+	firewall-cmd --add-service=http --permanent
+	firewall-cmd --reload
+	firewall-cmd --add-service=http --permanent
+	firewall-cmd --add-service=https --permanent'''
 4. Add the registration folder to the apache html folder
 	'''$cd ftp-apache2
-	#cp registration /var/www/html'''
+	cp registration /var/www/html'''
 5. Add the scripts to visudo
 	'''#visudo /etc/sudoers'''
 	at the end of the file, add 
