@@ -3,9 +3,11 @@ How to set up an apache server for use of autoconfiguring FTP Users
 This was done on Apache 2 on CentOS 8
 1. Clone this github repo
 	$git clone https://github.com/piluvr/ftp-apache2.git
-2. Install Apache 2
-	#apt install apache2 (for Debian and based distributions)
+2. Install Apache 2 and vsftpd
+	#apt install apache2 (for Debian and Ubuntu based distributions)
 	#dnf install httpd
+	#apt install vsftpd  (for Debian and Ubuntu based distributions)
+	#dnf install vsftpd
 	# systemctl enable httpd
 	# systemctl start httpd
 3.	Configure Firewall (CentOS)	
