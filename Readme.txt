@@ -25,5 +25,5 @@ This was done on Apache 2 on CentOS 8
 	at the end of the file, add 
 	apache ALL = NOPASSWD: /var/www/html/registration/script.sh
 	apache ALL = NOPASSWD: /var/www/html/registration/create_ftp_user.sh
-6.	Navigate to http:localhost/registration and see that it works!	
+6.	Navigate to http://localhost/registration and see that it works!	
 
