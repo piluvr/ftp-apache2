@@ -19,7 +19,7 @@ This was done on Apache 2 on CentOS 8
 	# firewall-cmd --add-service=https --permanent
 4. Add the registration folder to the apache html folder
 	$cd ftp-apache2
-	#cp registration /var/www/html
+	#cp registration/ /var/www/html
 5. Add the scripts to visudo
 	#visudo /etc/sudoers
 	at the end of the file, add 
